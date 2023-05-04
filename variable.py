@@ -1,4 +1,4 @@
-print(type(nb1))
+
 #declaration de variable de type entier
 nb1=4
 nb2=5
