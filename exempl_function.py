@@ -16,3 +16,13 @@ def somme_nmbr():
 
 # a = somme_nmbr()
 # print(a)
+
+
+def calcul_nbr(nbr1, nbr2):
+    return nbr1*nbr2
+
+produit = calcul_nbr(4,5)
+print(produit)
+
+
+
