@@ -9,10 +9,12 @@ list_note.insert(0,30)
 # list_note.count(20)
 list_note.reverse()
 # list_note.remove(20)
-print(list_note.sort(reverse=True))
+# print(list_note.sort(reverse=True))
 
 list_etudiant = [list_name,list_note]
 list_note.append(20)
+
+
 
 # Slicing
 name = list_name[:]
@@ -24,3 +26,9 @@ print(list_etudiant)
 
 print(f"Nom et Note {list_etudiant[0][0]} {list_etudiant[1][2]} ")
 print(f"Nom et Note {list_etudiant[0][1::2]} {list_etudiant[1][1:]} ")
+
+
+# structure itarative
+
+for index in list_etudiant:
+    print(index[0])
